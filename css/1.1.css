@@ -23,34 +23,15 @@
   position: fixed;
 }
 
-.navbar {
-  position: fixed;
-  margin-left: 15%;
-}
-
-.dropdown  {
-  position: relative;
-  display: inline-block;
-}
-
-.dropbtn  {
-  background-color: silver;
-  height: 48px;
-  width: 96px;
-  border-bottom-width: 1px;
-  border-color: darkblue;
-  cursor: pointer;
-}
-
 .centered {
   margin-left: 40%;
   margin-right: 30%;
 }
 
 #quote1  {
-  position: fixed;
-  margin-top: 30%;
-  margin-right: 4%;
+  position: absolute;
+  margin-top: 20%;
+  margin-left: 20%;
 }
 
 #gif1 {
@@ -63,7 +44,7 @@
 #image_barbarian {
   position: absolute;
   width: 20%;
-  margin-top: 0%;
+  margin-top: 0;
 }
 
 #image_archer {
