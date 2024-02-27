@@ -1,4 +1,6 @@
-let n = 5;
+//Bonus
+
+let n = 10;
 
 let characters = "*";
 let space = " ";
@@ -10,7 +12,7 @@ for (let i = 0; i < n; i++) {
   console.log(space + characters)
   characters += "**";
 }
-spaceIndex = 5;
+spaceIndex = n;
 space = setSpace(spaceIndex)
 for (let i = 0; i< n; i++){
   console.log(space + "*")
